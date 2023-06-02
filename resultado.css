@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("imgs/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+
+header a{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.gerador {
+background-color:  rgb(8,137,4,80%);
+border-radius: 21px;
+margin-left: 21px;
+margin-right: 21px;
+padding: 25px;
+color: white;
+}
+
+.logo{
+    margin-top: 15px;
+}
+

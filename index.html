@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Senutri</title>
+    <link rel="shortcut icon" href="imgs/iconeh.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <!--<a href="login.html" class="login">Login</a>-->
+        <img src="imgs/logo.png" alt="">
+    </header>
+    <!--<ul>
+        <li>
+            <input id="s1" type="checkbox" class="switch">
+            <label for="s1">Switch</label>
+        </li>
+        <li>
+            <input id="s2" type="checkbox" class="switch" checked>
+            <label for="s2">Switch</label>
+        </li>
+    </ul>-->
+    <div class="formulario">
+        <input id="peso" type="number" placeholder="Peso">
+        <input id="altura" type="number" placeholder="Altura">
+
+        <div class="sw-button">
+            <label class="switch">
+                <input type="checkbox" id="perdaDePeso">
+                <span class="slider round"></span>
+            </label>
+            <label>Perda de Peso</label>
+        </div>
+
+        <div class="sw-button">
+            <label class="switch">
+                <input type="checkbox" id="ganhoDeMassa">
+                <span class="slider round"></span>
+            </label>
+            <label>Ganho de massa</label>
+        </div>
+
+
+    </div>
+
+    <a id="gerador" href="#">Gerar Alimentação</a>
+
+    <div id="resposta-bg" class="results-bg">
+        <div id="resposta" class="results">
+            
+        </div>
+    </div>
+    <img src="loading.gif" alt="Loading signal" id="imgLoading">
+
+    <script src="index.js"></script>
+</body>
+
+
+
+</html>
