@@ -65,7 +65,7 @@ async function enviarPergunta(pergunta) {
 }
 
 document.addEventListener("click", (event)=> {
-    if (event.srcElement.id = "resposta-bg") {
+    if (event.srcElement.id == "resposta-bg") {
         divRespostabg.style.display = "none"
     }
 })
