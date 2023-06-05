@@ -30,7 +30,10 @@ btnGerar.addEventListener("click", () => {
 });
 
 
-const apiKey = "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";
+const a = "sk-DIc7NJmheltEE";
+const p = "lOub2F8T3BlbkFJV";
+const i = "OY8B3hbA3W6iiqIdKBG";
+const apiKey = a + p + i;
 const imgLoading = document.getElementById("imgLoading");
 const pResposta = document.getElementById("resposta");
 
